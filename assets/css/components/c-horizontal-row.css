@@ -1,0 +1,7 @@
+.c-horizontal-row {
+    border: none;
+    margin: 0.625rem auto;
+    background-color: var(--clr-pink-dark);
+    height: 0.125rem;
+    width: 8.75rem;
+}

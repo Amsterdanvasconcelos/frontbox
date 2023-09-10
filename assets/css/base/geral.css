@@ -1,0 +1,13 @@
+body {
+    background-color: var(--clr-white);
+    font-family: var(--ff-primary);
+}
+
+p {
+    line-height: 1.3638rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}

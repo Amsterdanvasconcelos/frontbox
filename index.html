@@ -17,8 +17,15 @@
 	<!-- Base -->
 	<link rel="stylesheet" href="assets/css/base/reset.css">
 	<link rel="stylesheet" href="assets/css/base/root.css">
+	<link rel="stylesheet" href="assets/css/base/geral.css">
 	<!-- Layout -->
+	<link rel="stylesheet" href="assets/css/layout/l-menu.css">
+	<link rel="stylesheet" href="assets/css/layout/l-we-are.css">
 	<!-- Components -->
+	<link rel="stylesheet" href="assets/css/components/c-navbar.css">
+	<link rel="stylesheet" href="assets/css/components/c-intro.css">
+	<link rel="stylesheet" href="assets/css/components/c-horizontal-row.css">
+	<link rel="stylesheet" href="assets/css/components/c-title.css">
 	
 	<title>Frontbox</title>
 
@@ -26,16 +33,57 @@
 <body>
 
 	<header>
-
-		<div class="menu-bg">
-			<div class="menu">
-				<div class="menu__logo">
+		<div class="l-menu-bg">
+			<div class="l-menu">
+				<div class="l-menu__logo">
 					<a href="#"><img src="assets/img/logo.png" alt="Logo Frontbox"></a>
 				</div>
+
+				<nav class="c-navbar">
+					<ul class="c-navbar__list">
+						<li><a href="#we-are" class="c-navbar__link">Quem Somos</a></li>
+						<li><a href="#courses" class="c-navbar__link">Nossos Cursos</a></li>
+						<li><a href="#plans" class="c-navbar__link">Planos</a></li>
+						<li><a href="#features" class="c-navbar__link">Características</a></li>
+						<li><a href="#contact" class="c-navbar__link">Contato</a></li>
+					</ul>
+				</nav>
 			</div>
 		</div>
-		
+
+		<h1 class="c-intro">Aprenda a programar, <br> um projeto por vez!</h1>
 	</header>
+
+	<hr class="c-horizontal-row">
 	
+	<section class="l-we-are" id="we-are">
+		<h1 class="c-title">Quem somos</h1>
+
+		<div class="l-we-are__content">
+			<div class="l-we-are__text">
+				<p>
+					Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu
+					levo!
+					Atirei o pau no gatis, per gatis num morreus. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Cevadis
+					im
+					ampola pa arma uma pindureta.
+				</p>
+				<br>
+				<p>
+					Copo furadis é disculpa de bebadis, arcu quam euismod magna. Praesent vel viverra nisi. Mauris aliquet nunc non
+					turpis
+					scelerisque, eget. Interagi no mé, cursus quis, vehicula ac nisi. Suco de cevadiss, é um leite divinis, qui tem
+					lupuliz,
+					matis, aguis e fermentis.
+				</p>
+			</div>
+
+			<div class="l-we-are__img">
+				<img src="assets/img/somos.png" alt="Imagem - Quem Somos.">
+			</div>
+		</div>
+	</section>
+	
+	<hr class="c-horizontal-row">
 </body>
 </html>

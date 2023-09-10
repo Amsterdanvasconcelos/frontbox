@@ -1,0 +1,23 @@
+.l-we-are {
+    padding: 0.625rem;
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+.l-we-are__content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.l-we-are__text {
+    flex: 2 1 18.75rem;  
+}
+
+.l-we-are__img {
+    flex: 1 1 21.875rem;
+}
+
+.l-we-are__img img {
+    margin: 0 auto;
+}
