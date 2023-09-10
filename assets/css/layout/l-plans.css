@@ -1,0 +1,32 @@
+.l-plans {
+    padding: 0.9375rem;
+    background-color: var(--clr-pink-light);
+}
+
+.l-plans__content {
+    padding: 0.625rem;
+    margin: 0 auto;
+    max-width: 75rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 1.875rem;
+}
+
+.l-plans__content .c-card-plan {
+    flex: 1 1 250px;
+}
+
+@media (max-width: 56.25rem) {
+    .l-plans__content {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .l-plans__content {
+        flex-wrap: wrap-reverse;
+    }
+}

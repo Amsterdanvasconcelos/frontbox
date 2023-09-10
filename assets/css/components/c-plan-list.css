@@ -1,0 +1,15 @@
+.c-plan-list__item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.c-plan-list__item::before {
+    content: '';
+    display: block;
+    border-radius: 50%;
+    background-color: var(--clr-green-light);
+    height: 6px;
+    width: 6px;
+}

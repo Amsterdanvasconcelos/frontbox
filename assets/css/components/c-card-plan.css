@@ -1,0 +1,58 @@
+.c-card-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;   
+    align-items: center;
+    gap: 0.625rem;
+
+    padding: 0.9375rem;
+    border: 0.125rem solid var(--clr-green-light);
+    max-width: 18.75rem;
+}
+
+.c-card-plan__title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.c-card-plan__price {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.c-card-plan__price::after {
+    content: '';
+    display: block;
+    background-color: var(--clr-green-light);
+    height: 0.125rem;
+    width: 1.375rem;
+    margin: 0.625rem auto 0;
+}
+
+.c-card-plan__currency {
+    position: relative;
+    top: -1.25rem;
+    font-size: 1.5rem;
+}
+
+.c-card-plan__btn {
+    padding: 0.4375rem;
+    border: 0.125rem solid var(--clr-green-light);
+    background-color: transparent;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.c-card-plan--green {
+    background-color: var(--clr-green-light);
+    border-color: var(--clr-pink-dark);
+}
+.c-card-plan--green .c-card-plan__btn {
+    border-color: var(--clr-pink-dark);
+}
+.c-card-plan--green .c-card-plan__price::after {
+    background-color: var(--clr-pink-dark);
+}
+.c-card-plan--green .c-plan-list__item::before {
+    background-color: var(--clr-pink-dark);
+}
