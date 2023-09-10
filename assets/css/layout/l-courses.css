@@ -1,0 +1,22 @@
+.l-courses {
+    padding: 1.875rem 0.625rem;
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+.l-courses__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.l-courses__content .c-card-course {
+    flex: 1 1 200px;
+}
+
+@media (max-width: 56.25rem) {
+    .l-courses__content {
+        justify-content: center;
+    }
+}
