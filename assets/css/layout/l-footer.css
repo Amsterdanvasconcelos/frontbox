@@ -1,0 +1,22 @@
+.l-footer {
+    padding: 20px 0;
+    background-color: var(--clr-pink-light);
+}
+
+.l-footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+@media (max-width: 40.625rem) {
+    .l-footer__content {
+        justify-content: space-evenly;
+    }
+}
