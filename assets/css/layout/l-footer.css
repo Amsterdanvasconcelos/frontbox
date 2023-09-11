@@ -1,5 +1,5 @@
 .l-footer {
-    padding: 20px 0;
+    padding: 1.25rem 0;
     background-color: var(--clr-pink-light);
 }
 
@@ -8,11 +8,11 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 1.875rem;
     
-    padding: 10px;
+    padding: 0.625rem;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 75rem;
 }
 
 @media (max-width: 40.625rem) {
